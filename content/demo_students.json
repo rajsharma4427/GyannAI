@@ -1,0 +1,68 @@
+[
+  {
+    "student_id": "demo_learner_gaps",
+    "name": "Aarav (Demo: prerequisite gaps)",
+    "lang": "en",
+    "starting_states": [
+      {
+        "topic_id": "factorization",
+        "mastery": 0.25,
+        "confidence": 0.3,
+        "gap_type": "procedural",
+        "interval_days": 0,
+        "ease": 2.5,
+        "next_review": null,
+        "status": "gap"
+      },
+      {
+        "topic_id": "linear_equations",
+        "mastery": 0.35,
+        "confidence": 0.4,
+        "gap_type": "conceptual",
+        "interval_days": 0,
+        "ease": 2.5,
+        "next_review": null,
+        "status": "gap"
+      }
+    ]
+  },
+  {
+    "student_id": "demo_learner_new",
+    "name": "Meera (Demo: new learner)",
+    "lang": "hi",
+    "starting_states": []
+  },
+  {
+    "student_id": "demo-aarav",
+    "name": "Aarav Sharma",
+    "lang": "en",
+    "starting_states": [
+      {
+        "topic_id": "factorization",
+        "mastery": 0.25,
+        "confidence": 0.3,
+        "gap_type": "procedural",
+        "interval_days": 0,
+        "ease": 2.5,
+        "next_review": null,
+        "status": "gap"
+      },
+      {
+        "topic_id": "linear_equations",
+        "mastery": 0.35,
+        "confidence": 0.4,
+        "gap_type": "conceptual",
+        "interval_days": 0,
+        "ease": 2.5,
+        "next_review": null,
+        "status": "gap"
+      }
+    ]
+  },
+  {
+    "student_id": "demo-new",
+    "name": "Meera Verma",
+    "lang": "hi",
+    "starting_states": []
+  }
+]

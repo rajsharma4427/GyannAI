@@ -1,0 +1,740 @@
+[
+  {
+    "id": "integers_d1",
+    "topic_id": "integers",
+    "stem": "What is −3 + 5?",
+    "options": [
+      "2",
+      "−8",
+      "−2",
+      "8"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "subtract magnitudes and keep negative sign",
+      "add magnitudes but keep negative sign",
+      "ignore the negative sign incorrectly"
+    ]
+  },
+  {
+    "id": "integers_d2",
+    "topic_id": "integers",
+    "stem": "What is (−4) × (−3)?",
+    "options": [
+      "12",
+      "−12",
+      "7",
+      "−7"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "same signs give a positive product",
+      "assume every product with a negative is negative",
+      "add instead of multiply"
+    ]
+  },
+  {
+    "id": "integers_d3",
+    "topic_id": "integers",
+    "stem": "Evaluate −18 ÷ 3 + 2 × (−4).",
+    "options": [
+      "−14",
+      "−2",
+      "14",
+      "−26"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "follow order of operations and signs",
+      "perform addition before division/multiplication",
+      "lose the negative sign",
+      "combine all values without operation priority"
+    ]
+  },
+  {
+    "id": "fractions_d1",
+    "topic_id": "fractions",
+    "stem": "Which fraction is equivalent to 2/3?",
+    "options": [
+      "4/6",
+      "2/6",
+      "3/2",
+      "4/5"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "multiply numerator and denominator by the same number",
+      "change only the denominator",
+      "invert the fraction"
+    ]
+  },
+  {
+    "id": "fractions_d2",
+    "topic_id": "fractions",
+    "stem": "What is 1/4 + 1/2?",
+    "options": [
+      "3/4",
+      "2/6",
+      "1/6",
+      "2/4"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "convert to a common denominator",
+      "add denominators directly",
+      "multiply numerators and denominators",
+      "forget to add the numerators correctly"
+    ]
+  },
+  {
+    "id": "fractions_d3",
+    "topic_id": "fractions",
+    "stem": "A ratio is 3:5 and the total is 40. What is the first share?",
+    "options": [
+      "15",
+      "24",
+      "8",
+      "25"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "divide total into 8 equal parts, then take 3",
+      "take 3/5 of the total",
+      "use only the difference of ratio terms",
+      "assign 5 parts to the first share"
+    ]
+  },
+  {
+    "id": "algebraic_expressions_d1",
+    "topic_id": "algebraic_expressions",
+    "stem": "In 5x + 2, what is the coefficient of x?",
+    "options": [
+      "5",
+      "2",
+      "x",
+      "7"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "coefficient is the number multiplying the variable",
+      "confuse constant with coefficient",
+      "treat variable as coefficient",
+      "add terms to find coefficient"
+    ]
+  },
+  {
+    "id": "algebraic_expressions_d2",
+    "topic_id": "algebraic_expressions",
+    "stem": "Simplify 3a + 2a.",
+    "options": [
+      "5a",
+      "5a²",
+      "6a",
+      "a"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "combine like terms by adding coefficients",
+      "multiply terms and powers",
+      "multiply coefficients instead of adding",
+      "subtract coefficients"
+    ]
+  },
+  {
+    "id": "algebraic_expressions_d3",
+    "topic_id": "algebraic_expressions",
+    "stem": "Simplify 2(x + 3) − x.",
+    "options": [
+      "x + 6",
+      "2x + 3",
+      "x + 3",
+      "3x + 6"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "distribute 2 then combine like terms",
+      "distribute to only one term incorrectly",
+      "forget distribution",
+      "add unlike constants and variables"
+    ]
+  },
+  {
+    "id": "linear_equations_d1",
+    "topic_id": "linear_equations",
+    "stem": "Solve x + 4 = 9.",
+    "options": [
+      "x = 5",
+      "x = 13",
+      "x = −5",
+      "x = 4"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "subtract 4 from both sides",
+      "add 4 to both sides",
+      "reverse sign incorrectly",
+      "copy the constant as answer"
+    ]
+  },
+  {
+    "id": "linear_equations_d2",
+    "topic_id": "linear_equations",
+    "stem": "Solve 3x = 18.",
+    "options": [
+      "x = 6",
+      "x = 15",
+      "x = 21",
+      "x = 54"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "divide both sides by 3",
+      "subtract 3 instead of dividing",
+      "add 3 instead of dividing",
+      "multiply by 3 again"
+    ]
+  },
+  {
+    "id": "linear_equations_d3",
+    "topic_id": "linear_equations",
+    "stem": "Solve 2(x − 3) = x + 5.",
+    "options": [
+      "x = 11",
+      "x = 2",
+      "x = 1",
+      "x = 8"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "expand then isolate x",
+      "forget the negative 3 when distributing",
+      "move terms without changing operation",
+      "divide only one term by 2"
+    ]
+  },
+  {
+    "id": "exponents_d1",
+    "topic_id": "exponents",
+    "stem": "What is 2³?",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "5"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "multiply 2 by itself three times",
+      "multiply base by exponent",
+      "square then add exponent",
+      "add base and exponent"
+    ]
+  },
+  {
+    "id": "exponents_d2",
+    "topic_id": "exponents",
+    "stem": "Simplify x² × x³.",
+    "options": [
+      "x⁵",
+      "x⁶",
+      "x⁵⁺ˣ",
+      "2x⁵"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "add exponents for the same base",
+      "multiply exponents",
+      "treat exponent as a variable term",
+      "add coefficients that are not present"
+    ]
+  },
+  {
+    "id": "exponents_d3",
+    "topic_id": "exponents",
+    "stem": "What is (2³)²?",
+    "options": [
+      "64",
+      "32",
+      "12",
+      "256"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "multiply exponents to get 2⁶",
+      "add exponents to get 2⁵",
+      "multiply base and exponent",
+      "use exponent 3+2 but calculate base incorrectly"
+    ]
+  },
+  {
+    "id": "polynomials_d1",
+    "topic_id": "polynomials",
+    "stem": "What is the degree of 4x² + 3x + 1?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "degree is the highest exponent",
+      "count the number of terms",
+      "use the lowest positive exponent",
+      "use only the constant term"
+    ]
+  },
+  {
+    "id": "polynomials_d2",
+    "topic_id": "polynomials",
+    "stem": "Simplify (2x² + 3x) + (x² − x).",
+    "options": [
+      "3x² + 2x",
+      "3x⁴ + 2x",
+      "x² + 4x",
+      "3x² + 4x"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "combine like powers",
+      "add exponents when adding polynomials",
+      "subtract x² from 2x² incorrectly",
+      "add the x coefficients with the wrong sign"
+    ]
+  },
+  {
+    "id": "polynomials_d3",
+    "topic_id": "polynomials",
+    "stem": "Which expression is a polynomial in x?",
+    "options": [
+      "3x² − 2x + 7",
+      "1/x + 2",
+      "√x + 1",
+      "x⁻² + 4"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "nonnegative integer powers of x",
+      "variable in denominator gives negative power",
+      "square root gives fractional exponent",
+      "negative exponent is not polynomial"
+    ]
+  },
+  {
+    "id": "factorization_d1",
+    "topic_id": "factorization",
+    "stem": "Factorize x² + 5x.",
+    "options": [
+      "x(x + 5)",
+      "(x + 5)²",
+      "x²(1 + 5)",
+      "(x + 1)(x + 5)"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "take common factor x",
+      "square binomial gives extra terms",
+      "factor out wrong power",
+      "expand proposed factors to verify"
+    ]
+  },
+  {
+    "id": "factorization_d2",
+    "topic_id": "factorization",
+    "stem": "Factorize x² − 9.",
+    "options": [
+      "(x − 3)(x + 3)",
+      "(x − 9)(x + 1)",
+      "(x − 3)²",
+      "(x + 9)(x − 1)"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "difference of two squares",
+      "use 9 as a root rather than 3",
+      "forget opposite signs in difference of squares",
+      "misplace the constant factors"
+    ]
+  },
+  {
+    "id": "factorization_d3",
+    "topic_id": "factorization",
+    "stem": "Factorize x² + 7x + 12.",
+    "options": [
+      "(x + 3)(x + 4)",
+      "(x + 6)(x + 2)",
+      "(x − 3)(x − 4)",
+      "(x + 12)(x + 1)"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "numbers multiply to 12 and add to 7",
+      "choose pair with product 12 but sum 8",
+      "wrong signs make middle term negative",
+      "choose pair with product 12 but sum 13"
+    ]
+  },
+  {
+    "id": "identities_d1",
+    "topic_id": "identities",
+    "stem": "Which identity is correct?",
+    "options": [
+      "(a + b)² = a² + 2ab + b²",
+      "(a + b)² = a² + b²",
+      "(a − b)² = a² − b²",
+      "(a + b)² = a² + ab + b²"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "include the middle term 2ab",
+      "forget the cross term",
+      "confuse square of difference with difference of squares",
+      "use an incorrect cross-term coefficient"
+    ]
+  },
+  {
+    "id": "identities_d2",
+    "topic_id": "identities",
+    "stem": "Expand (x − 4)².",
+    "options": [
+      "x² − 8x + 16",
+      "x² − 16",
+      "x² + 8x + 16",
+      "x² − 4x + 16"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "use a² − 2ab + b²",
+      "confuse square with difference of squares",
+      "lose the negative sign in the middle term",
+      "use ab instead of 2ab"
+    ]
+  },
+  {
+    "id": "identities_d3",
+    "topic_id": "identities",
+    "stem": "If a + b = 10 and ab = 21, find a² + b².",
+    "options": [
+      "58",
+      "79",
+      "100",
+      "42"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "use (a+b)² = a² + 2ab + b²",
+      "add ab instead of subtracting 2ab",
+      "forget to subtract 2ab",
+      "return 2ab alone"
+    ]
+  },
+  {
+    "id": "square_roots_d1",
+    "topic_id": "square_roots",
+    "stem": "What is √49?",
+    "options": [
+      "7",
+      "−7 only",
+      "24.5",
+      "14"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "principal square root is nonnegative",
+      "treat square root as only negative root",
+      "divide by 2 instead of finding square root",
+      "double the number's root"
+    ]
+  },
+  {
+    "id": "square_roots_d2",
+    "topic_id": "square_roots",
+    "stem": "Simplify √(36 × 25).",
+    "options": [
+      "30",
+      "61",
+      "900",
+      "11"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "√36 × √25 = 6 × 5",
+      "add values inside radical",
+      "forget to take square root",
+      "add square roots instead of multiplying"
+    ]
+  },
+  {
+    "id": "square_roots_d3",
+    "topic_id": "square_roots",
+    "stem": "Which is irrational?",
+    "options": [
+      "√3",
+      "√49",
+      "√0.25",
+      "√81"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "3 is not a perfect square",
+      "49 is a perfect square",
+      "0.25 has exact root 0.5",
+      "81 is a perfect square"
+    ]
+  },
+  {
+    "id": "quadratic_equations_d1",
+    "topic_id": "quadratic_equations",
+    "stem": "Which is a quadratic equation in standard form?",
+    "options": [
+      "x² + 5x + 6 = 0",
+      "x³ + x = 0",
+      "5x + 6 = 0",
+      "x² + 5x = 6x²"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "degree two and equals zero",
+      "degree three is cubic",
+      "degree one is linear",
+      "must collect terms to standard form"
+    ]
+  },
+  {
+    "id": "quadratic_equations_d2",
+    "topic_id": "quadratic_equations",
+    "stem": "For 2x² − 7x + 3 = 0, what is a?",
+    "options": [
+      "2",
+      "−7",
+      "3",
+      "0"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "a is coefficient of x²",
+      "b is coefficient of x",
+      "c is constant term",
+      "assume a is zero when not written alone"
+    ]
+  },
+  {
+    "id": "quadratic_equations_d3",
+    "topic_id": "quadratic_equations",
+    "stem": "Rewrite 3x² + 2x = 8 in standard form.",
+    "options": [
+      "3x² + 2x − 8 = 0",
+      "3x² + 2x + 8 = 0",
+      "3x² − 2x − 8 = 0",
+      "3x² + 2x = 0"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "move 8 to the left by subtracting",
+      "change equals to plus without moving sign",
+      "change sign of the x term unnecessarily",
+      "drop the constant 8"
+    ]
+  },
+  {
+    "id": "solve_by_factorization_d1",
+    "topic_id": "solve_by_factorization",
+    "stem": "Solve x² − 9 = 0.",
+    "options": [
+      "x = 3 or x = −3",
+      "x = 9 or x = −9",
+      "x = 3 only",
+      "x = −3 only"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "both factors x−3 and x+3 can be zero",
+      "confuse roots with constants",
+      "ignore the negative factor root",
+      "ignore the positive factor root"
+    ]
+  },
+  {
+    "id": "solve_by_factorization_d2",
+    "topic_id": "solve_by_factorization",
+    "stem": "Solve x² + 5x + 6 = 0.",
+    "options": [
+      "x = −2 or x = −3",
+      "x = 2 or x = 3",
+      "x = −1 or x = −6",
+      "x = 2 or x = −3"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "factor as (x+2)(x+3)",
+      "lose signs when setting factors to zero",
+      "choose factors whose product is 6 but sum is 7",
+      "choose signs inconsistently"
+    ]
+  },
+  {
+    "id": "solve_by_factorization_d3",
+    "topic_id": "solve_by_factorization",
+    "stem": "Solve 2x² − 7x + 3 = 0 by factorization.",
+    "options": [
+      "x = 3 or x = 1/2",
+      "x = −3 or x = −1/2",
+      "x = 3 or x = −1/2",
+      "x = 1 or x = 3"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "factor as (2x−1)(x−3)",
+      "make both roots negative",
+      "get one factor sign wrong",
+      "factor coefficients incorrectly"
+    ]
+  },
+  {
+    "id": "quadratic_formula_d1",
+    "topic_id": "quadratic_formula",
+    "stem": "What is the quadratic formula for ax² + bx + c = 0?",
+    "options": [
+      "x = (−b ± √(b²−4ac))/(2a)",
+      "x = (b ± √(b²−4ac))/(2a)",
+      "x = (−b ± √(b²+4ac))/(2a)",
+      "x = (−b ± √(b²−4ac))/a"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "use −b, discriminant b²−4ac, and denominator 2a",
+      "forget the negative sign on b",
+      "use plus instead of minus in discriminant",
+      "forget denominator factor 2"
+    ]
+  },
+  {
+    "id": "quadratic_formula_d2",
+    "topic_id": "quadratic_formula",
+    "stem": "For x² − 5x + 6 = 0, what are the roots?",
+    "options": [
+      "2 and 3",
+      "−2 and −3",
+      "1 and 6",
+      "−1 and −6"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "substitute coefficients or factor correctly",
+      "misread signs of b and roots",
+      "choose factors with wrong sum",
+      "choose factors with wrong sum and signs"
+    ]
+  },
+  {
+    "id": "quadratic_formula_d3",
+    "topic_id": "quadratic_formula",
+    "stem": "For 2x² + 3x − 2 = 0, what is the discriminant?",
+    "options": [
+      "25",
+      "−7",
+      "1",
+      "9"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "b² − 4ac = 9 − 4(2)(−2)",
+      "calculate 9 − 16 ignoring negative c",
+      "use b² + 4ac",
+      "use b² alone"
+    ]
+  },
+  {
+    "id": "discriminant_d1",
+    "topic_id": "discriminant",
+    "stem": "What is the discriminant of ax² + bx + c = 0?",
+    "options": [
+      "b² − 4ac",
+      "b² + 4ac",
+      "4ac − b",
+      "a² − 4bc"
+    ],
+    "correct_index": 0,
+    "difficulty": 1,
+    "misconception_tags": [
+      "standard discriminant formula",
+      "use wrong sign before 4ac",
+      "omit square on b and mix terms",
+      "swap coefficients"
+    ]
+  },
+  {
+    "id": "discriminant_d2",
+    "topic_id": "discriminant",
+    "stem": "If the discriminant is negative, how many real roots are there?",
+    "options": [
+      "No real roots",
+      "Two distinct real roots",
+      "One repeated real root",
+      "Always two real roots"
+    ],
+    "correct_index": 0,
+    "difficulty": 2,
+    "misconception_tags": [
+      "negative square-root radicand gives no real roots",
+      "positive discriminant means two distinct roots",
+      "zero discriminant means repeated root",
+      "ignore discriminant sign"
+    ]
+  },
+  {
+    "id": "discriminant_d3",
+    "topic_id": "discriminant",
+    "stem": "For x² − 4x + 4 = 0, what is the nature of roots?",
+    "options": [
+      "Two equal real roots",
+      "Two distinct real roots",
+      "No real roots",
+      "One positive and one negative root"
+    ],
+    "correct_index": 0,
+    "difficulty": 3,
+    "misconception_tags": [
+      "discriminant is 16 − 16 = 0",
+      "positive discriminant would be needed for distinct roots",
+      "negative discriminant would mean no real roots",
+      "product is positive and sum negative, both roots equal −?"
+    ]
+  }
+]

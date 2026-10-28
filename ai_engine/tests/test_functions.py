@@ -73,14 +73,18 @@ def test_extract_syllabus_empty():
 
 def test_draft_syllabus_mock():
     """Verify draft_syllabus returns valid sequenced learning track."""
+    # For Class 10 track: returns canonical 13 topics per contract section 7.8
     track = draft_syllabus("Prepare for Class 10 Quadratic Equations")
     assert isinstance(track, list)
-    assert len(track) == 5
+    assert len(track) == 13
     assert all(isinstance(t, Topic) for t in track)
 
-    # Check prerequisites are valid and point backwards
+    # For general goal: returns 5 topics
+    track_sql = draft_syllabus("Learn SQL Fundamentals")
+    assert isinstance(track_sql, list)
+    assert len(track_sql) == 5
     seen_ids = set()
-    for t in track:
+    for t in track_sql:
         assert t.id not in seen_ids
         for prereq in t.prerequisites:
             assert prereq in seen_ids

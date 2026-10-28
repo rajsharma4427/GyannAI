@@ -1,7 +1,7 @@
 """
 ai_engine.functions
 
-The eight primary AI functions for Gyaan Loop, conforming exactly to the frozen contract.
+The eight primary AI functions for Gyaan Loop, conforming to the frozen shared contract.
 Handles input validation, mock mode delegation, response caching, model prompt invocation,
 and post-processing rules.
 """
@@ -16,6 +16,7 @@ from ai_engine.contracts import (
     Lesson,
     TeachBackResult,
     Flashcard,
+    GapType,
 )
 from ai_engine.errors import AIError
 import ai_engine.mock as mock_engine
@@ -37,8 +38,7 @@ def extract_syllabus(text: str) -> list[Topic]:
     if is_mock_enabled():
         return mock_engine.mock_extract_syllabus(text)
 
-    # In Phase 2: Real client and cache integration
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def draft_syllabus(goal: str) -> list[Topic]:
@@ -51,7 +51,7 @@ def draft_syllabus(goal: str) -> list[Topic]:
     if is_mock_enabled():
         return mock_engine.mock_draft_syllabus(goal)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def generate_questions(
@@ -68,7 +68,7 @@ def generate_questions(
     if is_mock_enabled():
         return mock_engine.mock_generate_questions(topic, n, difficulty)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def classify_mistake(
@@ -92,11 +92,11 @@ def classify_mistake(
     if is_mock_enabled():
         return mock_engine.mock_classify_mistake(question, chosen_index, topic, prereqs)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def explain_story(
-    topic: Union[Topic, str], gap_type: str, lang: str = "en"
+    topic: Union[Topic, str], gap_type: Optional[Union[GapType, str]] = None, lang: str = "en"
 ) -> Lesson:
     """
     Generate a spoken-style story lesson (<= 120 words), explanation (100-180 words),
@@ -105,7 +105,7 @@ def explain_story(
     if is_mock_enabled():
         return mock_engine.mock_explain_story(topic, gap_type, lang)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def grade_teachback(
@@ -121,11 +121,14 @@ def grade_teachback(
     if is_mock_enabled():
         return mock_engine.mock_grade_teachback(topic, transcript, key_points)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def make_flashcards(
-    topic: Union[Topic, str], gap_type: str, missing: list[str], n: int = 3
+    topic: Union[Topic, str],
+    gap_type: Optional[Union[GapType, str]] = None,
+    missing: Optional[list[str]] = None,
+    n: int = 2,
 ) -> list[Flashcard]:
     """
     Generate exactly n flashcards (front prompt, back answer <= 40 words).
@@ -136,7 +139,7 @@ def make_flashcards(
     if is_mock_enabled():
         return mock_engine.mock_make_flashcards(topic, gap_type, missing, n)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")
 
 
 def make_note(topic: Union[Topic, str], summary: str, lang: str = "en") -> str:
@@ -146,4 +149,4 @@ def make_note(topic: Union[Topic, str], summary: str, lang: str = "en") -> str:
     if is_mock_enabled():
         return mock_engine.mock_make_note(topic, summary, lang)
 
-    raise AIError("Real client invocation is not configured yet (mock mode disabled).")
+    raise AIError("Real AI provider client is not configured yet. Run with AI_MOCK=1.")

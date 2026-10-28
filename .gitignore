@@ -1,4 +1,14 @@
+# Database files
 ai_cache.db
+*.db
+*.db-wal
+*.db-shm
+
+# Environment & secrets
+.env
+.env.local
+
+# Python caches
 __pycache__/
 *.pyc
 *.pyo
@@ -6,3 +16,8 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/

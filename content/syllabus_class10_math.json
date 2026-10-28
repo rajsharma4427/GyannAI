@@ -1,0 +1,121 @@
+[
+  {
+    "id": "integers",
+    "name": "Integers and sign rules",
+    "parent_id": null,
+    "prereq_ids": [],
+    "description": "Understand positive and negative numbers and sign rules."
+  },
+  {
+    "id": "fractions",
+    "name": "Fractions and ratios",
+    "parent_id": null,
+    "prereq_ids": [],
+    "description": "Represent parts of a whole, equivalent fractions, and ratios."
+  },
+  {
+    "id": "algebraic_expressions",
+    "name": "Algebraic expressions",
+    "parent_id": null,
+    "prereq_ids": [
+      "integers"
+    ],
+    "description": "Use variables, coefficients, constants, and simplify expressions."
+  },
+  {
+    "id": "linear_equations",
+    "name": "Linear equations in one variable",
+    "parent_id": null,
+    "prereq_ids": [
+      "algebraic_expressions",
+      "fractions"
+    ],
+    "description": "Solve one-variable linear equations using inverse operations."
+  },
+  {
+    "id": "exponents",
+    "name": "Exponents and squares",
+    "parent_id": null,
+    "prereq_ids": [
+      "integers"
+    ],
+    "description": "Use powers, squares, and exponent rules."
+  },
+  {
+    "id": "polynomials",
+    "name": "Polynomials and degree",
+    "parent_id": null,
+    "prereq_ids": [
+      "algebraic_expressions",
+      "exponents"
+    ],
+    "description": "Identify polynomial terms and degree, and combine like terms."
+  },
+  {
+    "id": "factorization",
+    "name": "Factorization",
+    "parent_id": null,
+    "prereq_ids": [
+      "polynomials"
+    ],
+    "description": "Express a polynomial as a product of simpler factors."
+  },
+  {
+    "id": "identities",
+    "name": "Algebraic identities",
+    "parent_id": null,
+    "prereq_ids": [
+      "polynomials",
+      "exponents"
+    ],
+    "description": "Apply standard algebraic identities."
+  },
+  {
+    "id": "square_roots",
+    "name": "Square roots",
+    "parent_id": null,
+    "prereq_ids": [
+      "exponents"
+    ],
+    "description": "Find square roots and understand perfect squares."
+  },
+  {
+    "id": "quadratic_equations",
+    "name": "Quadratic equations (standard form)",
+    "parent_id": null,
+    "prereq_ids": [
+      "polynomials",
+      "linear_equations"
+    ],
+    "description": "Recognize ax² + bx + c = 0 and identify coefficients."
+  },
+  {
+    "id": "solve_by_factorization",
+    "name": "Solving by factorization",
+    "parent_id": null,
+    "prereq_ids": [
+      "quadratic_equations",
+      "factorization"
+    ],
+    "description": "Solve quadratic equations by factorizing and using the zero-product property."
+  },
+  {
+    "id": "quadratic_formula",
+    "name": "Solving by the quadratic formula",
+    "parent_id": null,
+    "prereq_ids": [
+      "quadratic_equations",
+      "square_roots"
+    ],
+    "description": "Solve quadratic equations using the quadratic formula."
+  },
+  {
+    "id": "discriminant",
+    "name": "Discriminant and nature of roots",
+    "parent_id": null,
+    "prereq_ids": [
+      "quadratic_formula"
+    ],
+    "description": "Use b² − 4ac to determine the nature of roots."
+  }
+]
