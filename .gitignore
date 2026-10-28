@@ -1,0 +1,8 @@
+ai_cache.db
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
